@@ -1,0 +1,158 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="demo-wrap">
+    <header>
+        <a class="cta" href="https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=7df87e412f&attid=0.1&permmsgid=msg-a:r7676068000125519363&th=17c06bcca3b5d27c&view=att&disp=inline&saddbat=ANGjdJ8lWV3ljf5SdaoK5ZpOP-XD0DAlYe_XJ0FYnw13cM9SP9-b_z4_v7u-gm_3itpGFrXKcoqPDgWsv5PjmPTjD24kZOimxWQVq-CFcAcopWkYnorqtnXfnOJNCXRn6lasMHl1eNiGMtve28SzT9PJn_KBFJeW4A27NYV5wHIn0ZAUYnTl__F9Xqx1s9S63yHdjCKkJXl44j3xOiJkVfPh7pJuU-EXyiwpEektx0HNQmRaAxSEJ-w27JVHpHu_s0iDlrwerB3C7Wb4zR_0YVFRY4PNWXjmCgVG4lo7Iv9UDSv06sknqz2h-YTC_ek3D6qs7EBtb-u71K7eJCJ2tNE9fgQ63_j4lMKRRVhcF8pG6_OKA7yVWpn8JsZDcVMrHriXqeuCf5ZOk6xASoXUCrdDh8IZ-Z0vwFI9vE-07kAcrQUJtojPbYbQhPFgEqhP36NslGWrAOzF9hKuLDlwan0s7qwktvIE_CN7EKIF4z-ksrAge16jcEFt7SbGl9VJW6nqJfdr_lyx5BRjR7FgMiiKWiGk7mr3OBjqAsuYHhARM2kmAYbnAeY_t05q1a8fTYkMe1Cj-ooCLWmuPHtDwUQW5OPPl0uSRP44fla7MNboxXDiqCzi7ldyihRKkP8jnGkTEXPfcNyNme5KkvvcEBJMiAgXr3MsT7TrphZgqbvAD0Br7t6yT_9blV9gXpU"><button>Resume</button></a>
+        <nav>
+          <ul class="nav__links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="page__content">
+        <h1>Hello</h1>
+        <p>My name is Akal Erupe,a Full-stack developer and lover of African literature</p>
+      </div>
+      <div id="about">
+        <h1 style="margin-right: auto;">About</h1>
+          <p class="paragraph">As every job is a self-portrait of the person who does it, Akal likes to autograph hers with excellence. 
+            Akal is an innovative mind seeking to solve real-time problems using technology. She has a diverse pool of skills in JavaScript,node.js, Python, Django, React, and Kotlin. 
+            She is currently preparing for the AWS solutions architect certification. Akal is particularly drawn to developing solutions that have the interest of the community at their core. 
+            She believes technology is a powerful tool that if properly harnessed can stimulate change.
+            She is looking to leverage a career in tech, especially in fast-paced environments as she wants to expand her skillset and nurture her creativity.</p>
+      </div>
+
+      <div id="projects">
+
+      </div>
+      <div id="contact">
+
+</body>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+:root {
+  --wrapper_value: 10%;
+}
+
+* {
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+  /* background-color: black; */
+  font-family: "Montserrat", sans-serif;
+ 
+}
+body{
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(https://images.unsplash.com/photo-1555066932-e78dd8fb77bb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTI2fHxsYXB0b3B8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+li, a, button {
+  font-weight: 500;
+  font-size: 16px;
+  color: #EDF0F1;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 30px var(--wrapper_value);
+}
+
+.logo {
+  cursor: pointer;
+  margin-left:40px;
+  border-radius: 50px;
+  margin-top: 50px;
+
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #0088A9;
+}
+
+button {
+  margin: 0 20px;
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+.page__content {
+  height: 40vh;
+  padding: 30px var(--wrapper_value);
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6,p{
+  color: #EDF0F1;
+  margin: 0 auto;
+
+  
+}
+#about{
+  height: 40vh;
+  margin-left:40px;
+}
+.paragraph{
+  color: white;
+  /* margin-left:40px; */
+  align-items: center;
+  margin-top: 10px;
+}
+
+btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  position: relative;
+  margin: 10px;
+  color: inherit;
+}
+
+
+</style>
+</html>
